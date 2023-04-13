@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    html{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    
+    .nav1{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        display: flex;
+        color: white;
+        height: 60px;
+        background-color: rgba(237, 107, 0, 0.989);  
+        justify-content: space-around;
+        z-index: 1;
+    }
+    .parol{
+        margin-top: 20px;
+    }
+    
+    .parol:hover{
+    cursor: pointer;
+    }
+    
+    .logo{
+        margin-top: 15px;
+        height: 30px;
+        width: 130px;
+        margin-right: 100px;
+        
+    }
+    
+    .item{
+        margin-top: 20px;
+    }
+    
+    .item > *{
+    padding-inline:5px ;
+    }
+    
+    .container{
+        margin-top: 150px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        max-width:1000px;
+        margin-inline: auto;
+        margin-bottom: 30px;
+    }
+    
+    .two-position{
+        position: relative;
+    }
+    
+    .sconto-rosso{
+    position: absolute;
+    left: 0;
+    top: 390px;
+    border: solid red;
+    background-color: red;
+    color: white;
+    }
+    
+    .tabella-verde{
+        position: absolute;
+        left: 45px;
+        top: 390px;
+        border: solid green;
+        background-color: green;
+        color: white;
+    }
+    
+    .cuoricino{
+        position: absolute;
+        right: 0;
+        top: 10px;
+        border: solid white 7px;
+        background-color: white;
+    }
+    
+    .cuoricino:hover{
+    color: red;
+    
+    }
+    
+    
+    .price{
+        color: red;
+    }
+    
+    .prezzo-tagliato{
+        text-decoration: line-through;
+        color: black;
+    }
+    
+    .one-position{
+        position: relative;
+    }
+    
+    .no-position{
+        position: relative;
+    }
+    
+    .tabella-verde2{
+        position: absolute;
+        left: 0;
+        top: 390px;
+        border: solid green;
+        background-color: green;
+        color: white;
+    }
+    
+    .container2{
+        background-color: black;
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    
+    .nav2{
+        color: white;
+    }
+    
+    .parol2{
+        margin-top: 30px;
+    }
+    
+    .social{
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    
+    .social>*{
+        border: solid 1px;
+        background-color: white;
+        color: black;
+        margin-inline: 2px;
+    
+    }
+    
